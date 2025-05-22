@@ -15,5 +15,9 @@ public class Main {
         }
 
         String str = "Hello! It is my first pr~";
+
+        String str2 = "Hello! It is my first pr~ True!!!";
+        int a = 1, b = 2;
+        System.out.println(a + b);
     }
 }
