@@ -8,5 +8,9 @@ public class MyStringBuilder {
         StringBuffer sbf = new StringBuffer();
         String str = "hello";
         StringJoiner sj = new StringJoiner(",","[","]");
+        sb.insert(0,60);
+        sb.insert(0,str + "2");
+        sb.insert(0,str + "3");
+        System.out.println(sb);
     }
 }
