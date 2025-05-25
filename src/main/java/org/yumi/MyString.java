@@ -10,5 +10,9 @@ public class MyString {
             System.out.println(c);
         }
 
+        String s1 = "1814/09/06";
+        String s2 = "1814/09/20";
+        System.out.println("-----------------");
+        System.out.println(s2.compareTo(s1));
     }
 }
