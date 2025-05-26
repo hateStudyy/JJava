@@ -14,5 +14,12 @@ public class MyString {
         String s2 = "1814/09/20";
         System.out.println("-----------------");
         System.out.println(s2.compareTo(s1));
+        String str1 = "7_This_is_a_test\n";
+        String upperCase = str1.toUpperCase();
+//        System.out.println(str1.toUpperCase());
+        System.out.println("========myUpperCase======");
+        for (int i = 0; i < upperCase.length(); i++) {
+            System.out.print(upperCase.charAt(i));
+        }
     }
 }
